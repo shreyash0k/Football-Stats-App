@@ -6,7 +6,7 @@
 
 Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. (P.S. We use React, Typescript, and Next.JS)
 
-## Project Requirements
+## Project Requirements :memo:
 
 ### Required Abilities to Demonstrate
 
@@ -40,7 +40,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 - **Code Quality**
   - Follow best practices for code organization and readability
 
-## Project Outline
+## Project Outline :blueprint:
 
 1. **Setup**
    - Clone this repository
@@ -71,7 +71,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
    - Push your branch to the remote repository
    - Open a merge request for review
 
-## Key Project Outcomes
+## Key Project Outcomes :trophy:
 
 - **Functionality**
   - The application correctly fetches, stores, and displays data
