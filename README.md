@@ -25,7 +25,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 4. **Ability to Create a UI with Simple Functionality**
    - Display the retrieved data in a user-friendly interface
    - Implement basic interactivity, such as filtering or sorting the data
-   - For additional points, consider adding at leat 1 data visualization.
+   - For additional points, consider adding at least 1 data visualization.
 
 ### Additional Skills to Showcase
 
