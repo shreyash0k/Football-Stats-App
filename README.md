@@ -1,3 +1,5 @@
+![My Image](assets/uspc.png)
+
 # Software Engineer Intern Assessment Project
 
 ## Project Overview
