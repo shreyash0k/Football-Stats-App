@@ -6,7 +6,7 @@ Deadline: September 15, 2024 @ 23:59
 
 ## Project Overview
 
-Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. (P.S. We use Next.JS framework, with React, Tailwind, Typescript, and Postgres)
+Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. However, we will provide some guidance and tips to get started with the tools we love (P.S. We use Next.JS framework, with React, Tailwind, Typescript, and Postgres)
 
 ## Project Requirements :memo:
 
@@ -48,23 +48,27 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 1. **Setup**
    - Fork this repository
    - Clone your forked repository
-   - Set up your development environment
+   - Set up your development environment. Check out [Next JS](https://nextjs.org/learn) if you are looking for a easy to use full-stack framework
    - Create a new branch for your work
 
 2. **API Integration**
    - Choose a public API to fetch data from (e.g., [SportAPI](https://rapidapi.com/rapidsportapi/api/sportapi7))
+   - Sign up for a free API key if needed
    - Write a script to retrieve data from the API
    - Handle errors and edge cases appropriately
 
 3. **Database Integration**
-   - Set up a local database (e.g., SQLite)
+   - Set up a local database (e.g., PostgreSQL, SQLite, mySQL)
    - Create a schema to store the API data
    - Write code to save the retrieved data into the database
+   > **Tip**: Use an ORM like [Prisma for Typescript](https://www.prisma.io/) or [SQLAlchemy for Python](https://pypi.org/project/SQLAlchemy/) to make working with your DB easier. The Next JS tutorial above provides steps on how to set up a postgres DB with an ORM.
+
 
 4. **User Interface**
    - Create a simple web interface using HTML/CSS/JavaScript or a framework like React
    - Display the data retrieved from the database
    - Add basic interactivity (e.g., filtering, sorting)
+   > **Tip**: If you decide to go with React, try using a pre-made component library like [ShadCN/UI](https://ui.shadcn.com/) to speed up your development.
 
 5. **Documentation and Testing**
    - Write documentation on how to set up and run your project
@@ -74,6 +78,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
    - Commit your changes with clear messages
    - Push your branch to the remote repository
    - Open a merge request for review
+   > **Note**: Only commits submitted before dealine will be considered. Make sure to commit early and often!
 
 ## Key Project Outcomes :trophy:
 
