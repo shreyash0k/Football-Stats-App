@@ -68,8 +68,8 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
    - Create a simple web interface using HTML/CSS/JavaScript or a framework like React
    - Display the data retrieved from the database
    - Add basic interactivity (e.g., filtering, sorting)
-   > **Tip**: If you decide to go with React, try using a pre-made component library like [ShadCN/UI](https://ui.shadcn.com/) to speed up your development.
-
+   > **Tip**: If you decide to go with React, try using a pre-made component library like [ShadCN/UI](https://ui.shadcn.com/) to speed up your development. Additionally you may also find using [Tailwind CSS](https://tailwindcss.com/docs/installation), which makes CSS styling much easier. Using NextJS should automatically set this up for you!
+   
 5. **Documentation and Testing**
    - Write documentation on how to set up and run your project
    - Implement basic tests for your code
