@@ -3,6 +3,7 @@
 # Software Engineer Intern Assessment Project
 
 Deadline: September 15, 2024 @ 23:59
+
 Contact: Sean@usperformancecenter.com
 
 ## Project Overview
