@@ -6,7 +6,7 @@ Deadline: September 15, 2024 @ 23:59
 
 ## Project Overview
 
-Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. However, we will provide some guidance and tips to get started with the tools we love (P.S. We use Next.JS framework, with React, Tailwind, Typescript, and Postgres)
+Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. However, we will provide some guidance and tips to get started with the tools we love
 
 ## Project Requirements :memo:
 
