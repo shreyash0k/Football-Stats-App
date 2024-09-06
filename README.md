@@ -48,8 +48,9 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 1. **Setup**
    - Fork this repository
    - Clone your forked repository
-   - Set up your development environment. Check out [Next JS](https://nextjs.org/learn) if you are looking for a easy to use full-stack framework
+   - Set up your development environment
    - Create a new branch for your work
+   > **Tip**: Check out [Next JS](https://nextjs.org/learn) if you are looking for a easy to use full-stack framework
 
 2. **API Integration**
    - Choose a public sports-related API to fetch data from (e.g., [SportAPI](https://rapidapi.com/rapidsportapi/api/sportapi7))
