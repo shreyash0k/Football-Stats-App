@@ -20,7 +20,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
    - Push your branch to the remote repository and open a merge request
 
 2. **Ability to Retrieve Data from an API**
-   - Fetch data from a public API
+   - Fetch data from a public sports-related API
    - Handle possible errors and edge cases
 
 3. **Ability to Work with a Database**
@@ -52,7 +52,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
    - Create a new branch for your work
 
 2. **API Integration**
-   - Choose a public API to fetch data from (e.g., [SportAPI](https://rapidapi.com/rapidsportapi/api/sportapi7))
+   - Choose a public sports-related API to fetch data from (e.g., [SportAPI](https://rapidapi.com/rapidsportapi/api/sportapi7))
    - Sign up for a free API key if needed
    - Write a script to retrieve data from the API
    - Handle errors and edge cases appropriately
