@@ -1,4 +1,4 @@
-![My Image](assets/uspc.png)
+![USPC LOGO](assets/uspc.png)
 
 # Software Engineer Intern Assessment Project
 
@@ -6,16 +6,17 @@ Deadline: September 15, 2024 @ 23:59
 
 ## Project Overview
 
-Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. (P.S. We use React, Typescript, and Next.JS)
+Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. (P.S. We use Next.JS framework, with React, Tailwind, Typescript, and Postgres)
 
 ## Project Requirements :memo:
 
 ### Required Abilities to Demonstrate
 
 1. **Ability to use Git**
-   - Clone the repository
+   - Fork this repository
+   - Clone your forked repository
    - Create a new branch for your work
-   - Commit changes with clear messages
+   - Commit changes often with clear messages
    - Push your branch to the remote repository and open a merge request
 
 2. **Ability to Retrieve Data from an API**
@@ -29,7 +30,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 4. **Ability to Create a UI with Simple Functionality**
    - Display the retrieved data in a user-friendly interface
    - Implement basic interactivity, such as filtering or sorting the data
-   - For additional points, consider adding at least 1 data visualization.
+   - For additional points, consider adding at least 1 data visualization
 
 ### Additional Skills to Showcase
 
@@ -45,12 +46,13 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 ## Project Outline :books:
 
 1. **Setup**
-   - Clone this repository
+   - Fork this repository
+   - Clone your forked repository
    - Set up your development environment
    - Create a new branch for your work
 
 2. **API Integration**
-   - Choose a public API to fetch data from (e.g., a sports related API)
+   - Choose a public API to fetch data from (e.g., [SportAPI](https://rapidapi.com/rapidsportapi/api/sportapi7))
    - Write a script to retrieve data from the API
    - Handle errors and edge cases appropriately
 
