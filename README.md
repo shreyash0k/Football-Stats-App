@@ -57,7 +57,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
    - Sign up for a free API key if needed
    - Write a script to retrieve data from the API
    - Handle errors and edge cases appropriately
-   > **Tip: If using NextJS, check out this [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching) explanation on their documentation.
+   > **Tip**: If using NextJS, check out this [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching) explanation on their documentation.
 
 3. **Database Integration**
    - Set up a local database (e.g., PostgreSQL, SQLite, mySQL)
