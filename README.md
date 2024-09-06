@@ -43,7 +43,7 @@ Welcome to the Software Engineer Intern Assessment Project! This project aims to
 - **Code Quality**
   - Follow best practices for code organization and readability
 
-## Project Outline :books:
+## Example Project Outline :books:
 
 1. **Setup**
    - Fork this repository
