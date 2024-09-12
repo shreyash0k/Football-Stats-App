@@ -1,102 +1,70 @@
-![USPC LOGO](assets/uspc.png)
+# Getting Started with Create React App
 
-# Software Engineer Intern Assessment Project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Deadline: September 15, 2024 @ 23:59
+## Available Scripts
 
-Contact: Sean@usperformancecenter.com
+In the project directory, you can run:
 
-## Project Overview
+### `npm start`
 
-Welcome to the Software Engineer Intern Assessment Project! This project aims to evaluate your skills in several key areas relevant to our team. You will be working on a small application that retrieves data from an API, stores it in a database, and displays it in a simple user interface. This project is intended to be open-ended, allowing you to be creative and choose whatever language or framework you are comfortable with. However, we will provide some guidance and tips to get started with the tools we love
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-> **Note**: We understand this task may feel challenging to some. Rest assured, we will evaluate all your work, regardless of your experience with different aspects of the project. If you have any questions or need assistance, feel free to contact us.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Project Requirements :memo:
+### `npm test`
 
-### Required Abilities to Demonstrate
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Ability to use Git**
-   - Fork this repository
-   - Clone your forked repository
-   - Create a new branch for your work
-   - Commit changes often with clear messages
-   - Push your branch to the remote repository and open a merge request
+### `npm run build`
 
-2. **Ability to Retrieve Data from an API**
-   - Fetch data from a public sports-related API
-   - Handle possible errors and edge cases
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **Ability to Work with a Database**
-   - Store the retrieved data in a local database
-   - Ensure the database is set up correctly and can be easily accessed
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. **Ability to Create a UI with Simple Functionality**
-   - Display the retrieved data in a user-friendly interface
-   - Implement basic interactivity, such as filtering or sorting the data
-   - For additional points, consider adding at least 1 data visualization
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Additional Skills to Showcase
+### `npm run eject`
 
-- **Documentation**
-  - Write clear and concise documentation for your code and the project setup
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- **Testing**
-  - Implement basic tests for your code to ensure functionality
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **Code Quality**
-  - Follow best practices for code organization and readability
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Example Project Outline :books:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. **Setup**
-   - Fork this repository
-   - Clone your forked repository
-   - Set up your development environment
-   - Create a new branch for your work
-   > **Tip**: Check out [Next JS](https://nextjs.org/learn) if you are looking for a easy to use full-stack framework that uses React and Javascript
+## Learn More
 
-2. **API Integration**
-   - Choose a public sports-related API to fetch data from (e.g., [SportAPI](https://rapidapi.com/rapidsportapi/api/sportapi7))
-   - Sign up for a free API key if needed
-   - Write a script to retrieve data from the API
-   - Handle errors and edge cases appropriately
-   > **Tip**: If using NextJS, check out this [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching) explanation on their documentation.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. **Database Integration**
-   - Set up a local database (e.g., PostgreSQL, SQLite, mySQL)
-   - Create a schema to store the API data
-   - Write code to save the retrieved data into the database
-   > **Tip**: Use an ORM like [Prisma for Typescript](https://www.prisma.io/) or [SQLAlchemy for Python](https://pypi.org/project/SQLAlchemy/) to make working with your DB easier. The Next JS tutorial above provides steps on how to set up a postgres DB with an ORM.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-4. **User Interface**
-   - Create a simple web interface using HTML/CSS/JavaScript or a framework like React
-   - Display the data retrieved from the database
-   - Add basic interactivity (e.g., filtering, sorting)
-   > **Tip**: If you decide to go with React, try using a pre-made component library like [ShadCN/UI](https://ui.shadcn.com/) to speed up your development. Additionally you will see both NextJS and ShadCN use [Tailwind CSS](https://tailwindcss.com/docs/installation), which makes CSS styling much easier. Using NextJS should automatically set this up for you!
-   
-5. **Documentation and Testing**
-   - Write documentation on how to set up and run your project
-   - Implement basic tests for your code
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-6. **Submission**
-   - Commit your changes with clear messages
-   - Push your branch to the remote repository
-   - Open a merge request for review
-   > **Note**: Only commits submitted before dealine will be considered. Make sure to commit early and often!
+### Analyzing the Bundle Size
 
-## Key Project Outcomes :trophy:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- **Functionality**
-  - The application correctly fetches, stores, and displays data
-  - Basic interactivity in the UI is functional
+### Making a Progressive Web App
 
-- **Code Quality**
-  - Code is well-organized and follows best practices
-  - Documentation is clear and complete
-  - Basic tests are implemented and pass
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- **Communication**
-  - Clear commit messages and merge request description
-  - Ability to discuss your approach and thought process during the follow-up meeting
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
