@@ -49,21 +49,21 @@ const TeamComparisonBar = ({ team1Stats, team2Stats }) => {
     </div>
     <div className="w-2/4 relative flex items-center">
       <div
-        className="bg-green-500 h-6"
+        className="bg-blue-500 h-6"
         style={{
           width: `${team1Widths.played.team1Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       <div
-        className="bg-red-500 h-6"
+        className="bg-orange-500 h-6"
         style={{
           width: `${team1Widths.played.team2Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       {/* Center the label */}
-      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-gray-600">
+      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-white">
         Played
       </div>
     </div>
@@ -79,21 +79,21 @@ const TeamComparisonBar = ({ team1Stats, team2Stats }) => {
     </div>
     <div className="w-2/4 relative flex items-center">
       <div
-        className="bg-green-500 h-6"
+        className="bg-blue-500 h-6"
         style={{
           width: `${team1Widths.wins.team1Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       <div
-        className="bg-red-500 h-6"
+        className="bg-orange-500 h-6"
         style={{
           width: `${team1Widths.wins.team2Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       {/* Center the label */}
-      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-gray-600">
+      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-white">
         Wins
       </div>
     </div>
@@ -109,21 +109,21 @@ const TeamComparisonBar = ({ team1Stats, team2Stats }) => {
     </div>
     <div className="w-2/4 relative flex items-center">
       <div
-        className="bg-green-500 h-6"
+        className="bg-blue-500 h-6"
         style={{
           width: `${team1Widths.draws.team1Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       <div
-        className="bg-red-500 h-6"
+        className="bg-orange-500 h-6"
         style={{
           width: `${team1Widths.draws.team2Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       {/* Center the label */}
-      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-gray-600">
+      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-white">
         Draws
       </div>
     </div>
@@ -139,21 +139,21 @@ const TeamComparisonBar = ({ team1Stats, team2Stats }) => {
     </div>
     <div className="w-2/4 relative flex items-center">
       <div
-        className="bg-green-500 h-6"
+        className="bg-blue-500 h-6"
         style={{
           width: `${team1Widths.losses.team1Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       <div
-        className="bg-red-500 h-6"
+        className="bg-orange-500 h-6"
         style={{
           width: `${team1Widths.losses.team2Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       {/* Center the label */}
-      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-gray-600">
+      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-white">
         Losses
       </div>
     </div>
@@ -169,21 +169,21 @@ const TeamComparisonBar = ({ team1Stats, team2Stats }) => {
     </div>
     <div className="w-2/4 relative flex items-center">
       <div
-        className="bg-green-500 h-6"
+        className="bg-blue-500 h-6"
         style={{
           width: `${team1Widths.goalsFor.team1Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       <div
-        className="bg-red-500 h-6"
+        className="bg-orange-500 h-6"
         style={{
           width: `${team1Widths.goalsFor.team2Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       {/* Center the label */}
-      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-gray-600">
+      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-white">
         Goals For
       </div>
     </div>
@@ -199,21 +199,21 @@ const TeamComparisonBar = ({ team1Stats, team2Stats }) => {
     </div>
     <div className="w-2/4 relative flex items-center">
       <div
-        className="bg-green-500 h-6"
+        className="bg-blue-500 h-6"
         style={{
           width: `${team1Widths.goalsAgainst.team1Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       <div
-        className="bg-red-500 h-6"
+        className="bg-orange-500 h-6"
         style={{
           width: `${team1Widths.goalsAgainst.team2Percentage}%`,
           transition: 'width 1s ease',
         }}
       />
       {/* Center the label */}
-      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-gray-600">
+      <div className="absolute inset-0 flex justify-center items-center z-10 text-lg font-semibold text-white">
         Goals Against
       </div>
     </div>
