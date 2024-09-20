@@ -1,8 +1,12 @@
 const express = require('express');
 const db = require('./models');  // Import Sequelize models
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Enable CORS
+app.use(cors());
 
 // Parse JSON requests
 app.use(express.json());
