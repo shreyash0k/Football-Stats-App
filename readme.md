@@ -105,7 +105,7 @@ Make sure you have the following installed on your system:
     npm start
     ```
 
-    The server will start at `http://localhost:3000`.
+    The server will start at `http://localhost:5001`.
 
 ## Frontend Setup
 

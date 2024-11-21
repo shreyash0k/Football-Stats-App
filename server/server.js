@@ -1,9 +1,11 @@
 const express = require('express');
 const db = require('./models');  // Import Sequelize models
 const cors = require('cors');
+require('dotenv').config(); // This loads variables from .env into process.env
+
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5001;
 
 // Enable CORS
 app.use(cors());
@@ -61,4 +63,9 @@ app.listen(PORT, () => {
     }
 );
 
+
+console.log('Database:', process.env.PG_DATABASE);
+console.log('User:', process.env.PG_USER);
+console.log('Host:', process.env.PG_HOST);
+console.log('Port:', process.env.PG_PORT);
 

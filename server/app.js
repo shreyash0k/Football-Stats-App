@@ -1,20 +1,19 @@
 require('dotenv').config();  // Loads environment variables from the .env file
 const axios = require('axios');
 const db = require('./models');  // Import Sequelize models
-
 // Function to fetch football data from the API
 const fetchFootballData = async () => {
   const options = {
     method: 'GET',
     url: 'https://api-football-v1.p.rapidapi.com/v3/teams/statistics',
     params: {
-      season: '2020',  // Specify the season (e.g., 2019)
-      team: '170',  // Specify the team ID (e.g., 33 for Manchester United)
+      season: '2019',  // Specify the season (e.g., 2019)
+      team: '41',  // Specify the team ID (e.g., 33 for Manchester United)
       league: '39'  // Specify the league ID (e.g., 39 for Premier League)
     },
     headers: {
       'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-      'x-rapidapi-key': process.env.RAPIDAPI_KEY  // Ensure this is in your .env file
+      'x-rapidapi-key': process.env.RAPID_API_KEY  // Ensure this is in your .env file
     }
   };
 
